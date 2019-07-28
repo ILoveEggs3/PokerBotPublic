@@ -5,7 +5,7 @@ This was intenteded as a money making machine as well as a great learning opport
 I personnally mainly worked in the DLLProject folder. Most code there has been written or copied then modified by I,
 for our requirements, namely the exceptionnally well made silence macro recorder: https://github.com/lambdacasserole/silence
 
-I also made some of the more mathematical functions hidden somewhere in the Amigo folder.
+I also contributed to some of the more mathematical functions hidden somewhere in the Amigo folder.
 
 This project contains tools, frameworks and experiments.
 
