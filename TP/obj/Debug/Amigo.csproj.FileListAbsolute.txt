@@ -1,0 +1,72 @@
+C:\Users\Jonathan\Desktop\Projets\Bot de poker\TP\bin\Debug\TP.exe.config
+C:\Users\Jonathan\Desktop\Projets\Bot de poker\TP\obj\Debug\TP.exe
+C:\Users\Jonathan\Desktop\Projets\Bot de poker\TP\obj\Debug\TP.pdb
+C:\Users\Jonathan\Desktop\Projets\Bot de poker\TP\bin\Debug\TP.exe
+C:\Users\Jonathan\Desktop\Projets\Bot de poker\TP\bin\Debug\TP.pdb
+C:\Users\Jonathan\Desktop\Projets\Bot de poker\TP\obj\Debug\Amigo.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Desktop\Projets\Bot de poker\TP\obj\Debug\TP.frmCreerPartie.resources
+C:\Users\Jonathan\Desktop\Projets\Bot de poker\TP\obj\Debug\TP.frmJeu.resources
+C:\Users\Jonathan\Desktop\Projets\Bot de poker\TP\obj\Debug\TP.frmOptions.resources
+C:\Users\Jonathan\Desktop\Projets\Bot de poker\TP\obj\Debug\TP.Properties.Resources.resources
+C:\Users\Jonathan\Desktop\Projets\Bot de poker\TP\obj\Debug\Amigo.csproj.GenerateResource.Cache
+U:\PokerBot\Bot de poker\Bot de poker\TP\bin\Debug\TP.exe.config
+U:\PokerBot\Bot de poker\Bot de poker\TP\obj\Debug\TP.exe
+U:\PokerBot\Bot de poker\Bot de poker\TP\obj\Debug\TP.pdb
+U:\PokerBot\Bot de poker\Bot de poker\TP\obj\Debug\Amigo.csprojResolveAssemblyReference.cache
+U:\PokerBot\Bot de poker\Bot de poker\TP\obj\Debug\TP.frmCreerPartie.resources
+U:\PokerBot\Bot de poker\Bot de poker\TP\obj\Debug\TP.frmJeu.resources
+U:\PokerBot\Bot de poker\Bot de poker\TP\obj\Debug\TP.frmOptions.resources
+U:\PokerBot\Bot de poker\Bot de poker\TP\obj\Debug\TP.Properties.Resources.resources
+U:\PokerBot\Bot de poker\Bot de poker\TP\obj\Debug\Amigo.csproj.GenerateResource.Cache
+U:\PokerBot\Bot de poker\Bot de poker\TP\bin\Debug\TP.exe
+U:\PokerBot\Bot de poker\Bot de poker\TP\bin\Debug\TP.pdb
+U:\PokerBot\Bot de poker\Bot de poker\TP\bin\Debug\HandEvaluator.dll
+U:\PokerBot\Bot de poker\Bot de poker\TP\bin\Debug\HandEvaluator.pdb
+U:\PokerBot\Bot de poker\Bot de poker\TP\bin\Debug\HandEvaluator.xml
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\HandEvaluator.dll
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\HandEvaluator.pdb
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\HandEvaluator.xml
+C:\Users\claj2606\Desktop\PokerBot\TP\obj\Debug\Amigo.csprojResolveAssemblyReference.cache
+C:\Users\claj2606\Desktop\PokerBot\TP\obj\Debug\Amigo.csproj.GenerateResource.Cache
+C:\Users\claj2606\Desktop\PokerBot\TP\obj\Debug\Amigo.frmCreerPartie.resources
+C:\Users\claj2606\Desktop\PokerBot\TP\obj\Debug\Amigo.frmJeu.resources
+C:\Users\claj2606\Desktop\PokerBot\TP\obj\Debug\Amigo.frmOptions.resources
+C:\Users\claj2606\Desktop\PokerBot\TP\obj\Debug\Amigo.Properties.Resources.resources
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\Amigo.exe.config
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\Amigo.exe
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\Amigo.pdb
+C:\Users\claj2606\Desktop\PokerBot\TP\obj\Debug\Amigo.exe
+C:\Users\claj2606\Desktop\PokerBot\TP\obj\Debug\Amigo.pdb
+C:\Users\Jonathan\Desktop\PokerBot\TP\obj\Debug\Amigo.csprojAssemblyReference.cache
+C:\Users\Jonathan\Desktop\PokerBot\TP\obj\Debug\Amigo.frmCreerPartie.resources
+C:\Users\Jonathan\Desktop\PokerBot\TP\obj\Debug\Amigo.frmJeu.resources
+C:\Users\Jonathan\Desktop\PokerBot\TP\obj\Debug\Amigo.frmOptions.resources
+C:\Users\Jonathan\Desktop\PokerBot\TP\obj\Debug\Amigo.Properties.Resources.resources
+C:\Users\Jonathan\Desktop\PokerBot\TP\obj\Debug\Amigo.csproj.GenerateResource.cache
+C:\Users\Jonathan\Desktop\PokerBot\TP\obj\Debug\Amigo.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\PokerBot\TP\obj\Debug\Amigo.exe
+C:\Users\Jonathan\Desktop\PokerBot\TP\obj\Debug\Amigo.pdb
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\Amigo.exe.config
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\Amigo.exe
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\Amigo.pdb
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\HandEvaluator.dll
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\HandEvaluator.pdb
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\HandEvaluator.xml
+C:\Users\Jonathan\Desktop\PokerBot\TP\obj\Debug\Amigo.csproj.CopyComplete
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\System.Data.SQLite.dll
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\EnvDTE.dll
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\stdole.dll
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\EnvDTE.xml
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\System.Data.SQLite.xml
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\System.Data.SQLite.dll
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\EnvDTE.dll
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\stdole.dll
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\System.Data.SQLite.xml
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Jonathan\Desktop\PokerBot\TP\bin\Debug\EnvDTE.xml
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\claj2606\Desktop\PokerBot\TP\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
