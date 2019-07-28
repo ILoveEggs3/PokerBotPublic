@@ -1,0 +1,5 @@
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\ProcessusProject\VersionOfficielle\obj\Release\OpenCLTestApp.csprojResolveAssemblyReference.cache
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\ProcessusProject\VersionOfficielle\obj\Release\VersionOfficielle.frmMain.resources
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\ProcessusProject\VersionOfficielle\obj\Release\VersionOfficielle.Properties.Resources.resources
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\ProcessusProject\VersionOfficielle\obj\Release\OpenCLTestApp.csproj.GenerateResource.Cache
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\ProcessusProject\VersionOfficielle\bin\Release\VersionOfficielle.exe.config

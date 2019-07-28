@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33D638AA-126B-4D15-82D0-D120FBFB009A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Resources</RootNamespace>
+    <AssemblyName>Resources</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CConstantsTable.cs" />
+    <Compile Include="CReferences.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Launcher\EspaceJeux\AbstractConstantes.cs" />
+    <Compile Include="Resources\Launcher\EspaceJeux\References.cs" />
+    <Compile Include="Resources\SixMax\EspaceJeux\References.cs" />
+    <Compile Include="Resources\TwoMax\EspaceJeux\Constantes.cs" />
+    <Compile Include="Resources\TwoMax\EspaceJeux\References.cs" />
+    <Compile Include="Resources\Launcher\EspaceJeux\Constantes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_JACK_BLACK_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_JACK_RED_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_QUEEN_RED_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_TEN_RED_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_THREE_RED_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BUTTON_ALLIN_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BUTTON_CHECK_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BUTTON_FOLD_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BUTTON_RAISE_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_FIVE_RED_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_SIX_BLACK_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_TEN_BLACK_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_TWO_RED_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HERO_TURN_INDICATOR_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TXT_RAISE_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_VILAIN_DEALER_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_PLAYER_EMPTY_BMP1.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_PLAYER_EMPTY_BMP2.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_PLAYER_0_EMPTY_BMP1.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_STACK_VALUE_ZERO_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_STACK_VALUE_TWO_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_STACK_VALUE_THREE_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_STACK_VALUE_SIX_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_STACK_VALUE_SEVEN_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_STACK_VALUE_ONE_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_STACK_VALUE_NINE_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_STACK_VALUE_FOUR_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_STACK_VALUE_FIVE_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_STACK_VALUE_EIGHT_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_TYPE_SPADE_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_TYPE_HEART_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_TYPE_DIAMOND_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_TYPE_CLUB_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_DOT_BMP2.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_DOT_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_9_BMP2.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_9_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_8_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_7_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_6_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_5_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_4_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_3_BMP3.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_3_BMP2.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_1_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_TABLE_POT_VALUE_0_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_TEN_BLACK3_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_EIGHT_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_NINE_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_QUEEN_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_KING_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_KING_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_TEN_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_ACE_RED3_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_FIVE_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_TEN_RED3_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_KING_BLACK3_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_THREE_BLACK3_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_EIGHT_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_TEN_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_SEVEN_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_NINE_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_FOUR_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_FOUR_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_SIX_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_JACK_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_QUEEN_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_KING_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_TEN_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_QUEEN_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_KING_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_JACK_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_ACE_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_SIX_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_FIVE_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_TWO_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_TWO_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_THREE_RED2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_THREE_BLACK2_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_CHK_DISABLED.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_CHK_ENABLED.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_DROP_DOWN_BUTTON_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_TXT_BOX_EMPTY_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_1_2_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_05_1_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_025_05_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_EMPTY_ROW_1.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_EMPTY_ROW_2.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_PLRS_0_2_BMP1.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_01_02_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_002_04_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_2_4_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_3_6_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_4_8_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_005_01_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_5_10_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_8_16_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_10_20_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_015_03_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_15_30_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_20_40_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_25_5_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_25_50_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_FILTERS_VALUE_NONE_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_PLRS_2_2_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_PLRS_2_2_BMP2.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_PLRS_SORTING_DECREMENTING_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_PLRS_2_2_BMP3.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_ACE_BLACK2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_TYPE_CLUB_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_TYPE_CLUB2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_TYPE_DIAMOND_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_TYPE_DIAMOND2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_TYPE_HEART_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_TYPE_HEART2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_TYPE_SPADE_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_TYPE_SPADE2_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_TYPE_SPADE3_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_POPUP_CIRCLE_EXCLAMATION_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_POPUP_CIRCLE_QUESTION_BMP.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_0_BMP1.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_0_BMP2.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_0_BMP3.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_1_BMP1.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_1_BMP2.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_1_BMP3.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_2_BMP1.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_2_BMP2.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_2_BMP3.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_3_BMP1.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_3_BMP2.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_3_BMP3.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_4_BMP1.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_4_BMP2.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_4_BMP3.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_5_BMP1.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_5_BMP2.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_5_BMP3.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_6_BMP1.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_6_BMP2.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_6_BMP3.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_7_BMP1.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_7_BMP2.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_7_BMP3.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_8_BMP1.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_8_BMP2.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_8_BMP3.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_9_BMP1.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_9_BMP2.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_TABLEGRID_TABLENAME_CHARACTER_9_BMP3.bmp" />
+    <None Include="Resources\Launcher\EspaceJeux\References\LAUNCHER_ESPACEJEUX_POPUP_CIRCLE_EXCLAMATION_BMP2.bmp" />
+    <Content Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_ACE_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_NINE_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_TWO_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_THREE_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_THREE_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_TEN_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_SIX_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_SEVEN_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_SEVEN_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_QUEEN_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_QUEEN_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_NINE_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_NINE_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_KING_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_KING_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_JACK_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_JACK_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_FOUR_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_FOUR_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_FIVE_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_EIGHT_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_EIGHT_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_ACE_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_HAND_VALUE_ACE_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_TWO_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_TWO_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_THREE_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_TEN_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_SIX_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_SIX_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_SEVEN_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_SEVEN_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_QUEEN_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_NINE_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_KING_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_KING_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_FOUR_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_FOUR_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_FIVE_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_FIVE_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_EIGHT_RED_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_EIGHT_BLACK_BMP.bmp" />
+    <None Include="Resources\TwoMax\EspaceJeux\References\TWOMAX_ESPACEJEUX_BOARD_VALUE_ACE_RED_BMP.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\SixMax\EspaceJeux\References\" />
+  </ItemGroup>
+  <Import Project="..\PokerShared\PokerShared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

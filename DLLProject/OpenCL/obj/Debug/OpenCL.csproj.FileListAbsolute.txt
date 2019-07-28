@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\Amigo\DLLProject\OpenCL\bin\Debug\OpenCL.dll
+C:\Users\admin\Desktop\Amigo\DLLProject\OpenCL\bin\Debug\OpenCL.pdb
+C:\Users\admin\Desktop\Amigo\DLLProject\OpenCL\obj\Debug\OpenCL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Amigo\DLLProject\OpenCL\obj\Debug\OpenCL.dll
+C:\Users\admin\Desktop\Amigo\DLLProject\OpenCL\obj\Debug\OpenCL.pdb
+C:\Users\admin\Desktop\Amigo\DLLProject\OpenCL\obj\Debug\OpenCL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\dawda\Amigo\DLLProject\OpenCL\bin\Debug\OpenCL.dll
+C:\Users\admin\Desktop\dawda\Amigo\DLLProject\OpenCL\bin\Debug\OpenCL.pdb
+C:\Users\admin\Desktop\dawda\Amigo\DLLProject\OpenCL\obj\Debug\OpenCL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\dawda\Amigo\DLLProject\OpenCL\obj\Debug\OpenCL.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\dawda\Amigo\DLLProject\OpenCL\obj\Debug\OpenCL.dll
+C:\Users\admin\Desktop\dawda\Amigo\DLLProject\OpenCL\obj\Debug\OpenCL.pdb

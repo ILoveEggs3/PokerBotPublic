@@ -1,0 +1,8 @@
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\MathHelper\bin\Release\MathHelper.dll
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\MathHelper\bin\Release\MathHelper.pdb
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\MathHelper\bin\Release\OpenTK.dll
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\MathHelper\bin\Release\OpenTK.pdb
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\MathHelper\bin\Release\OpenTK.xml
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\MathHelper\obj\Release\MathHelper.csprojResolveAssemblyReference.cache
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\MathHelper\obj\Release\MathHelper.dll
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\MathHelper\obj\Release\MathHelper.pdb

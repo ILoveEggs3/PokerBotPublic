@@ -1,0 +1,54 @@
+C:\Users\Jonathan\Desktop\Projets\AllInPoker\VersionOfficielle\VersionOfficielle\bin\Debug\VersionOfficielle.exe.config
+C:\Users\Jonathan\Desktop\Projets\AllInPoker\VersionOfficielle\VersionOfficielle\bin\Debug\VersionOfficielle.exe
+C:\Users\Jonathan\Desktop\Projets\AllInPoker\VersionOfficielle\VersionOfficielle\bin\Debug\VersionOfficielle.pdb
+C:\Users\Jonathan\Desktop\Projets\AllInPoker\VersionOfficielle\VersionOfficielle\obj\Debug\VersionOfficielle.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Desktop\Projets\AllInPoker\VersionOfficielle\VersionOfficielle\obj\Debug\VersionOfficielle.frmMain.resources
+C:\Users\Jonathan\Desktop\Projets\AllInPoker\VersionOfficielle\VersionOfficielle\obj\Debug\VersionOfficielle.Properties.Resources.resources
+C:\Users\Jonathan\Desktop\Projets\AllInPoker\VersionOfficielle\VersionOfficielle\obj\Debug\VersionOfficielle.csproj.GenerateResource.Cache
+C:\Users\Jonathan\Desktop\Projets\AllInPoker\VersionOfficielle\VersionOfficielle\obj\Debug\VersionOfficielle.exe
+C:\Users\Jonathan\Desktop\Projets\AllInPoker\VersionOfficielle\VersionOfficielle\obj\Debug\VersionOfficielle.pdb
+C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\bin\Debug\VersionOfficielle.exe.config
+C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\obj\Debug\VersionOfficielle.exe
+C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\obj\Debug\VersionOfficielle.pdb
+C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\obj\Debug\VersionOfficielle.csprojResolveAssemblyReference.cache
+C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\obj\Debug\VersionOfficielle.frmMain.resources
+C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\obj\Debug\VersionOfficielle.Properties.Resources.resources
+C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\obj\Debug\VersionOfficielle.csproj.GenerateResource.Cache
+C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\bin\Debug\VersionOfficielle.exe
+C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\bin\Debug\VersionOfficielle.pdb
+C:\Users\olibb\Documents\Visual Studio 2015\Projects\AllInPokerBot\AllInBot\VersionOfficielle\bin\Debug\WindowScrape.dll
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe.config
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.pdb
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.frmMain.resources
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.Properties.Resources.resources
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.csproj.GenerateResource.Cache
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.exe
+C:\Users\beao3002\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.pdb
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe.config
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.exe
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.pdb
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.pdb
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.csprojResolveAssemblyReference.cache
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.frmMain.resources
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.Properties.Resources.resources
+C:\Users\lela2601\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.csproj.GenerateResource.Cache
+C:\Users\beao3002\Desktop\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe.config
+C:\Users\beao3002\Desktop\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.exe
+C:\Users\beao3002\Desktop\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.pdb
+C:\Users\beao3002\Desktop\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe
+C:\Users\beao3002\Desktop\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.pdb
+C:\Users\beao3002\Desktop\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.csprojResolveAssemblyReference.cache
+C:\Users\beao3002\Desktop\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.frmMain.resources
+C:\Users\beao3002\Desktop\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.Properties.Resources.resources
+C:\Users\beao3002\Desktop\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.csproj.GenerateResource.Cache
+C:\Users\beao3002\Desktop\DLLOpenCLTestProject\DLLProject\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe.config
+C:\Users\beao3002\Desktop\DLLOpenCLTestProject\DLLProject\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.exe
+C:\Users\beao3002\Desktop\DLLOpenCLTestProject\DLLProject\ProcessusProject\VersionOfficielle\bin\Debug\VersionOfficielle.pdb
+C:\Users\beao3002\Desktop\DLLOpenCLTestProject\DLLProject\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.frmMain.resources
+C:\Users\beao3002\Desktop\DLLOpenCLTestProject\DLLProject\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.Properties.Resources.resources
+C:\Users\beao3002\Desktop\DLLOpenCLTestProject\DLLProject\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.csproj.GenerateResource.Cache
+C:\Users\beao3002\Desktop\DLLOpenCLTestProject\DLLProject\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.exe
+C:\Users\beao3002\Desktop\DLLOpenCLTestProject\DLLProject\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.pdb
+C:\Users\beao3002\Desktop\DLLOpenCLTestProject\DLLProject\ProcessusProject\VersionOfficielle\obj\Debug\VersionOfficielle.csprojResolveAssemblyReference.cache

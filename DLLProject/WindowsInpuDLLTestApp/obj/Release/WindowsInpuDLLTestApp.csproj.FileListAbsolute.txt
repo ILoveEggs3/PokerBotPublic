@@ -1,0 +1,5 @@
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\WindowsInpuDLLTestApp\obj\Release\WindowsInpuDLLTestApp.csprojResolveAssemblyReference.cache
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\WindowsInpuDLLTestApp\obj\Release\WindowsInpuDLLTestApp.Form1.resources
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\WindowsInpuDLLTestApp\obj\Release\WindowsInpuDLLTestApp.Properties.Resources.resources
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\WindowsInpuDLLTestApp\obj\Release\WindowsInpuDLLTestApp.csproj.GenerateResource.Cache
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\WindowsInpuDLLTestApp\bin\Release\WindowsInpuDLLTestApp.exe.config

@@ -1,0 +1,3 @@
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\WindowScreenShotHelper\obj\Release\WindowScreenShotHelper.csprojResolveAssemblyReference.cache
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\WindowScreenShotHelper\obj\Release\WindowScreenShotHelper.Properties.Resources.resources
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\WindowScreenShotHelper\obj\Release\WindowScreenShotHelper.csproj.GenerateResource.Cache

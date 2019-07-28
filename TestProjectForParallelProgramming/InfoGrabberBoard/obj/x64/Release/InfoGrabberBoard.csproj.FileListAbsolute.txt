@@ -1,0 +1,14 @@
+C:\Users\claj2606\Desktop\InfoGrabberBoard\InfoGrabberBoard\bin\x64\Release\InfoGrabberBoard.exe.config
+C:\Users\claj2606\Desktop\InfoGrabberBoard\InfoGrabberBoard\bin\x64\Release\InfoGrabberBoard.exe
+C:\Users\claj2606\Desktop\InfoGrabberBoard\InfoGrabberBoard\bin\x64\Release\InfoGrabberBoard.pdb
+C:\Users\claj2606\Desktop\InfoGrabberBoard\InfoGrabberBoard\bin\x64\Release\Hybridizer.Runtime.CUDAImports.dll
+C:\Users\claj2606\Desktop\InfoGrabberBoard\InfoGrabberBoard\bin\x64\Release\Hybridizer.Runtime.CUDAImports.xml
+C:\Users\claj2606\Desktop\InfoGrabberBoard\InfoGrabberBoard\obj\x64\Release\InfoGrabberBoard.exe
+C:\Users\claj2606\Desktop\InfoGrabberBoard\InfoGrabberBoard\obj\x64\Release\InfoGrabberBoard.pdb
+C:\Users\claj2606\Desktop\Amigo\InfoGrabberBoard\InfoGrabberBoard\bin\x64\Release\InfoGrabberBoard.exe.config
+C:\Users\claj2606\Desktop\Amigo\InfoGrabberBoard\InfoGrabberBoard\obj\x64\Release\InfoGrabberBoard.exe
+C:\Users\claj2606\Desktop\Amigo\InfoGrabberBoard\InfoGrabberBoard\obj\x64\Release\InfoGrabberBoard.pdb
+C:\Users\claj2606\Desktop\Amigo\InfoGrabberBoard\InfoGrabberBoard\bin\x64\Release\InfoGrabberBoard.exe
+C:\Users\claj2606\Desktop\Amigo\InfoGrabberBoard\InfoGrabberBoard\bin\x64\Release\InfoGrabberBoard.pdb
+C:\Users\claj2606\Desktop\Amigo\InfoGrabberBoard\InfoGrabberBoard\bin\x64\Release\Hybridizer.Runtime.CUDAImports.dll
+C:\Users\claj2606\Desktop\Amigo\InfoGrabberBoard\InfoGrabberBoard\bin\x64\Release\Hybridizer.Runtime.CUDAImports.xml

@@ -1,0 +1,7 @@
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\Resources\bin\Release\Resources.dll
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\Resources\bin\Release\Resources.pdb
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\Resources\obj\Release\Resources.csprojResolveAssemblyReference.cache
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\Resources\obj\Release\Resources.Properties.Resources.resources
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\Resources\obj\Release\Resources.csproj.GenerateResource.Cache
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\Resources\obj\Release\Resources.dll
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\Resources\obj\Release\Resources.pdb

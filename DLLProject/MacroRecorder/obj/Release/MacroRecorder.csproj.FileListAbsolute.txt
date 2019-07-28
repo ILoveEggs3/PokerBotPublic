@@ -1,0 +1,4 @@
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\MacroRecorder\obj\Release\MacroRecorder.csprojResolveAssemblyReference.cache
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\MacroRecorder\obj\Release\Recorder.Form1.resources
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\MacroRecorder\obj\Release\Recorder.Properties.Resources.resources
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\MacroRecorder\obj\Release\MacroRecorder.csproj.GenerateResource.Cache

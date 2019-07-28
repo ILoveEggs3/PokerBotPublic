@@ -1,0 +1,9 @@
+c:\users\beao3002\documents\visual studio 2015\Projects\DLLProject\CSharpClient\bin\Debug\CSharpClient.exe.config
+c:\users\beao3002\documents\visual studio 2015\Projects\DLLProject\CSharpClient\bin\Debug\CSharpClient.exe
+c:\users\beao3002\documents\visual studio 2015\Projects\DLLProject\CSharpClient\bin\Debug\CSharpClient.pdb
+c:\users\beao3002\documents\visual studio 2015\Projects\DLLProject\CSharpClient\obj\Debug\CSharpClient.exe
+c:\users\beao3002\documents\visual studio 2015\Projects\DLLProject\CSharpClient\obj\Debug\CSharpClient.pdb
+c:\users\beao3002\documents\visual studio 2015\Projects\DLLProject\CSharpClient\obj\Debug\CSharpClient.csprojResolveAssemblyReference.cache
+C:\Users\beao3002\Desktop\DLLOpenCLTestProject\DLLProject\CSharpClient\bin\Debug\CSharpClient.exe.config
+C:\Users\beao3002\Desktop\DLLOpenCLTestProject\DLLProject\CSharpClient\obj\Debug\CSharpClient.exe
+C:\Users\beao3002\Desktop\DLLOpenCLTestProject\DLLProject\CSharpClient\obj\Debug\CSharpClient.pdb

@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{754DA987-ED7E-488B-8A40-35C7707D5307}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Amigo</RootNamespace>
+    <AssemblyName>Amigo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Shared\Helpers\CEnumHelper.cs">
+      <Link>Shared\Helpers\CEnumHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Helpers\CImageHelper.cs">
+      <Link>Shared\Helpers\CImageHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Helpers\CListHelper.cs">
+      <Link>Shared\Helpers\CListHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Helpers\CRandomNumberHelper.cs">
+      <Link>Shared\Helpers\CRandomNumberHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Helpers\CStringHelper.cs">
+      <Link>Shared\Helpers\CStringHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Poker\Helpers\CDecimalHelper.cs">
+      <Link>Shared\Poker\Helpers\CDecimalHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Poker\Helpers\CPokerRangeConverter.cs">
+      <Link>Shared\Poker\Helpers\CPokerRangeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Poker\Models\CAction.cs">
+      <Link>Shared\Poker\Models\CAction.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Poker\Models\CBoard.cs">
+      <Link>Shared\Poker\Models\CBoard.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Poker\Models\CCard.cs">
+      <Link>Shared\Poker\Models\CCard.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Poker\Models\CComboCard.cs">
+      <Link>Shared\Poker\Models\CComboCard.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Poker\Models\CPlayer.cs">
+      <Link>Shared\Poker\Models\CPlayer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Poker\Models\CSessionInfo.cs">
+      <Link>Shared\Poker\Models\CSessionInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Shared\Poker\Views\PokerHandChart.cs">
+      <Link>Shared\Poker\Views\PokerHandChart.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\Shared\Poker\Views\PokerHandChart.designer.cs">
+      <Link>Shared\Poker\Views\PokerHandChart.designer.cs</Link>
+    </Compile>
+    <Compile Include="Bots\CBotPoker.cs" />
+    <Compile Include="Bots\CBotPokerIFoldEverything.cs" />
+    <Compile Include="Bots\CBotPokerJamEverything.cs" />
+    <Compile Include="Bots\CPokerMath.cs" />
+    <Compile Include="CApplication.cs" />
+    <Compile Include="Controllers\AState.cs" />
+    <Compile Include="Controllers\CGame2MaxHumanBotController.cs" />
+    <Compile Include="Controllers\CGame2MaxManualController.cs" />
+    <Compile Include="Controllers\CGame6MaxHumansOnly.cs" />
+    <Compile Include="Bots\CBotPokerAmigo.cs" />
+    <Compile Include="Controllers\CGame2MaxBotsOnlyController.cs" />
+    <Compile Include="Controllers\CGameController.cs" />
+    <Compile Include="Controllers\CHandReplayerController.cs" />
+    <Compile Include="Controllers\CStateFlop.cs" />
+    <Compile Include="Controllers\CStatePreflop.cs" />
+    <Compile Include="Controllers\CStateRiver.cs" />
+    <Compile Include="Controllers\CStateTurn.cs" />
+    <Compile Include="Controllers\IState.cs" />
+    <Compile Include="Events\COnHandFinishedEventArgs.cs" />
+    <Compile Include="Events\COnWaitingForHumanActionEventArgs.cs" />
+    <Compile Include="Events\COnNewRangeReceivedEventArgs.cs" />
+    <Compile Include="Events\COnNewStreetEventArgs.cs" />
+    <Compile Include="Events\COnNewActionEventArgs.cs" />
+    <Compile Include="Events\COnNewHandEventArgs.cs" />
+    <Compile Include="Helpers\CDBHelper.cs" />
+    <Compile Include="Helpers\CDBHelperHandInfos.cs" />
+    <Compile Include="Controllers\CGameStateNLHE2Max.cs" />
+    <Compile Include="Helpers\EnumUtil.cs" />
+    <Compile Include="Interfaces\IGameController.cs" />
+    <Compile Include="Interfaces\IGameHumanVsBotController.cs" />
+    <Compile Include="Interfaces\IGameReplayerController.cs" />
+    <Compile Include="Models\CTableInfos.cs" />
+    <Compile Include="Models\MyModels\AStats.cs" />
+    <Compile Include="Models\MyModels\AveragePlayerValueHands\AAveragePlayerValueHands.cs" />
+    <Compile Include="Models\MyModels\AveragePlayerValueHands\CAveragePlayerValueHandsFlop.cs" />
+    <Compile Include="Models\MyModels\AveragePlayerValueHands\CAveragePlayerValueHandsRiver.cs" />
+    <Compile Include="Models\MyModels\AveragePlayerValueHands\CAveragePlayerValueHandsTurn.cs" />
+    <Compile Include="Models\MyModels\FoldStats\AFoldStats.cs" />
+    <Compile Include="Models\MyModels\FoldStats\CFlopFoldStats.cs" />
+    <Compile Include="Models\MyModels\FoldStats\CRiverFoldStats.cs" />
+    <Compile Include="Models\MyModels\FoldStats\CTurnFoldStats.cs" />
+    <Compile Include="Models\MyModels\GameState\AGameState.cs" />
+    <Compile Include="Models\MyModels\GameState\CFlopGameState.cs" />
+    <Compile Include="Models\MyModels\GameState\CRiverGameState.cs" />
+    <Compile Include="Models\MyModels\GameState\CTurnGameState.cs" />
+    <Compile Include="Models\MyModels\MadeHands\AMadeHand.cs" />
+    <Compile Include="Models\MyModels\MadeHands\Blockers\AMadeHandBlocker.cs" />
+    <Compile Include="Models\MyModels\MadeHands\Blockers\CAveragePlayerMadeHandBlockerFlop.cs" />
+    <Compile Include="Models\MyModels\MadeHands\Blockers\CAveragePlayerMadeHandBlockerRiver.cs" />
+    <Compile Include="Models\MyModels\MadeHands\Blockers\CAveragePlayerMadeHandBlockerTurn.cs" />
+    <Compile Include="Models\MyModels\MadeHands\CAveragePlayerMadeHandSDAndFDFlop.cs" />
+    <Compile Include="Models\MyModels\MadeHands\CAveragePlayerMadeHandSDAndFDTurn.cs" />
+    <Compile Include="Models\MyModels\MadeHands\CAveragePlayerMadeHandSDFlop.cs" />
+    <Compile Include="Models\MyModels\MadeHands\CAveragePlayerMadeHandSDTurn.cs" />
+    <Compile Include="Models\MyModels\MadeHands\FDOnly\AMadeHandFDOnly.cs" />
+    <Compile Include="Models\MyModels\MadeHands\FDOnly\CAveragePlayerMadeHandFDFlop.cs" />
+    <Compile Include="Models\MyModels\MadeHands\FDOnly\CAveragePlayerMadeHandFDTurn.cs" />
+    <Compile Include="Models\MyModels\OtherStats\AOtherStats.cs" />
+    <Compile Include="Models\MyModels\OtherStats\CFlopOtherStats.cs" />
+    <Compile Include="Models\MyModels\OtherStats\CRiverOtherStats.cs" />
+    <Compile Include="Models\MyModels\OtherStats\CTurnOtherStats.cs" />
+    <Compile Include="Shared\Models\Database\CAveragePlayerBluffsFlop.cs" />
+    <Compile Include="Shared\Models\Database\CAveragePlayerBluffsRiver.cs" />
+    <Compile Include="Shared\Models\Database\CAveragePlayerBluffsTurn.cs" />
+    <Compile Include="Shared\Models\Database\CAveragePlayerBluffsWithLotsOfEquityFlop.cs" />
+    <Compile Include="Shared\Models\Database\CAveragePlayerBluffsWithLotsOfEquityRiver.cs" />
+    <Compile Include="Shared\Models\Database\CAveragePlayerBluffsWithLotsOfEquityTurn.cs" />
+    <Compile Include="Shared\Models\Database\CAveragePlayerPreflopRange.cs" />
+    <Compile Include="Shared\Models\Database\CBoardModel.cs" />
+    <Compile Include="Shared\Models\Database\CDebugGeneralHandInfos.cs" />
+    <Compile Include="Shared\Models\Database\CHandModel.cs" />
+    <Compile Include="Shared\Models\Database\CPocketModel.cs" />
+    <Compile Include="Views\frmReplayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReplayer.Designer.cs">
+      <DependentUpon>frmReplayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmJeu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmJeu.Designer.cs">
+      <DependentUpon>frmJeu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmOptions.Designer.cs">
+      <DependentUpon>frmOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmCreerPartie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmCreerPartie.Designer.cs">
+      <DependentUpon>frmCreerPartie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\CGamesManagerController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\frmRangeVisualizer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRangeVisualizer.Designer.cs">
+      <DependentUpon>frmRangeVisualizer.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="..\..\Shared\Poker\Views\PokerHandChart.resx">
+      <Link>Shared\Poker\Views\PokerHandChart.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmCreerPartie.resx">
+      <DependentUpon>frmCreerPartie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReplayer.resx">
+      <DependentUpon>frmReplayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmJeu.resx">
+      <DependentUpon>frmJeu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmOptions.resx">
+      <DependentUpon>frmOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\frmRangeVisualizer.resx">
+      <DependentUpon>frmRangeVisualizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Images\EspaceJeux\" />
+    <Folder Include="Shared\Interfaces\" />
+    <Folder Include="Shared\Poker\Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\joueur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\0C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\0D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\0H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\0S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\2C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\2D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\2H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\2S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\3C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\3D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\3H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\3S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\4C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\4D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\4H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\4S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\5C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\5D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\5H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\5S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\6C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\6D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\6H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\6S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\7C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\7D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\7H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\7S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\8C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\8D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\8H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\8S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\9C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\9D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\9H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\9S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\AC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\AD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\AH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\AS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\back1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\back2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\JC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\JD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\JH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\JS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\KC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\KD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\KH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\KS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\QC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\QD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\QH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\QS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\dealer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Extern projects\HandEvaluator\HandEvaluator.csproj">
+      <Project>{57836673-FE81-4367-A4EB-AAA46FB954D2}</Project>
+      <Name>HandEvaluator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shared\Extern projects\HandHistories.Objects\HandHistories.Objects.csproj">
+      <Project>{D5C61A3A-2725-47D9-A828-F5CE4EC19A4A}</Project>
+      <Name>HandHistories.Objects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shared\Extern projects\HandHistories.Parser\HandHistories.Parser.csproj">
+      <Project>{0F131DB6-4891-4A24-A529-87F4816B9923}</Project>
+      <Name>HandHistories.Parser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SQLite, Version=1.0.109.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.109.2\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.109.2\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.109.2\build\net46\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.109.2\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.109.2\build\net46\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

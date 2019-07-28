@@ -1,0 +1,12 @@
+<Project>
+
+  <PropertyGroup>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <Authors>Amigo</Authors>
+    <Company>Amigo</Company>
+  </PropertyGroup>
+ 
+</Project>

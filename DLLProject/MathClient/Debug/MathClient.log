@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (DebugApp.vcxproj, MathClient.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  main.cpp
+c:\users\admin\desktop\dawda\amigo\dllproject\mathclient\main.cpp(63): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+  LINK : C:\Users\admin\Desktop\dawda\Amigo\DLLProject\Debug\OpenCLDLLDebugApp.exe not found or not built by the last incremental link; performing full link
+  MathClient.vcxproj -> C:\Users\admin\Desktop\dawda\Amigo\DLLProject\Debug\OpenCLDLLDebugApp.exe

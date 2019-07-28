@@ -1,0 +1,68 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (DLLProject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  dllmain.cpp
+  OpenCLImageAnalyse.cpp
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(58): warning C4273: 'OpenCLImageAnalyse::Initialize': inconsistent dll linkage
+  c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.h(19): note: see previous definition of 'Initialize'
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(283): warning C4273: 'OpenCLImageAnalyse::OCL': inconsistent dll linkage
+  c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.h(13): note: see previous definition of 'OCL'
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(327): warning C4101: 'retInfo': unreferenced local variable
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(328): warning C4101: 'sizeRet': unreferenced local variable
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(421): warning C4273: 'OpenCLImageAnalyse::Test': inconsistent dll linkage
+  c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.h(17): note: see previous definition of 'Test'
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(436): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(444): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(490): warning C4273: 'OpenCLImageAnalyse::Test2': inconsistent dll linkage
+  c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.h(18): note: see previous definition of 'Test2'
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(510): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(594): warning C4838: conversion from 'const int' to 'size_t' requires a narrowing conversion
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(615): warning C4273: 'OpenCLImageAnalyse::MatMulV1Call': inconsistent dll linkage
+  c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.h(14): note: see previous definition of 'MatMulV1Call'
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(661): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(677): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(645): warning C4101: 'retInfo': unreferenced local variable
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(646): warning C4101: 'sizeRet': unreferenced local variable
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(751): warning C4838: conversion from 'const int' to 'size_t' requires a narrowing conversion
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(773): warning C4273: 'OpenCLImageAnalyse::MatMulV2Call': inconsistent dll linkage
+  c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.h(15): note: see previous definition of 'MatMulV2Call'
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(819): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(803): warning C4101: 'retInfo': unreferenced local variable
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(804): warning C4101: 'sizeRet': unreferenced local variable
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(907): warning C4838: conversion from 'const int' to 'size_t' requires a narrowing conversion
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(927): warning C4273: 'OpenCLImageAnalyse::MatMulV3Call': inconsistent dll linkage
+  c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.h(16): note: see previous definition of 'MatMulV3Call'
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(973): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(992): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(957): warning C4101: 'retInfo': unreferenced local variable
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(958): warning C4101: 'sizeRet': unreferenced local variable
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1069): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1071): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1076): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1078): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1095): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1106): warning C4838: conversion from 'int' to 'size_t' requires a narrowing conversion
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1117): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1119): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1150): warning C4273: 'OpenCLImageAnalyse::BitmapAnalyseV2': inconsistent dll linkage
+  c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.h(21): note: see previous definition of 'BitmapAnalyseV2'
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1157): warning C4273: 'OpenCLImageAnalyse::BitmapAnalyseV3': inconsistent dll linkage
+  c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.h(22): note: see previous definition of 'BitmapAnalyseV3'
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1164): warning C4273: 'OpenCLImageAnalyse::SingleThreadBitmapAnalyse': inconsistent dll linkage
+  c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.h(23): note: see previous definition of 'SingleThreadBitmapAnalyse'
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1168): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1170): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1172): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1174): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1192): warning C4273: 'OpenCLImageAnalyse::MultiThreadBitmapAnalyse': inconsistent dll linkage
+  c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.h(24): note: see previous definition of 'MultiThreadBitmapAnalyse'
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1207): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1254): warning C4018: '>=': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1259): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1261): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1296): warning C4018: '>=': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1305): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1328): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\dawda\amigo\dllproject\dllproject\openclimageanalyse.cpp(1330): warning C4018: '<': signed/unsigned mismatch
+  LINK : C:\Users\admin\Desktop\dawda\Amigo\DLLProject\Debug\OpenCLDLL.dll not found or not built by the last incremental link; performing full link
+     Creating library C:\Users\admin\Desktop\dawda\Amigo\DLLProject\Debug\OpenCLDLL.lib and object C:\Users\admin\Desktop\dawda\Amigo\DLLProject\Debug\OpenCLDLL.exp
+  DLLProject.vcxproj -> C:\Users\admin\Desktop\dawda\Amigo\DLLProject\Debug\OpenCLDLL.dll

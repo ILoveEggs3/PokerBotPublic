@@ -1,0 +1,13 @@
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\bin\Release\BotImageHelper.exe.config
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\bin\Release\BotImageHelper.exe
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\bin\Release\BotImageHelper.pdb
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\bin\Release\System.IO.Compression.ZipFile.dll
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\bin\Release\System.IO.FileSystem.dll
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\bin\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\obj\Release\BotImageHelper.csprojResolveAssemblyReference.cache
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\obj\Release\BotImageHelper.Form1.resources
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\obj\Release\BotImageHelper.Form2.resources
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\obj\Release\BotImageHelper.Properties.Resources.resources
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\obj\Release\BotImageHelper.csproj.GenerateResource.Cache
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\obj\Release\BotImageHelper.exe
+C:\Users\dinf0014_admin\Desktop\Amigo\DLLProject\BotImageHelper\obj\Release\BotImageHelper.pdb
